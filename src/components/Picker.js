@@ -1980,7 +1980,7 @@ function Picker({
   return (
     <View style={_containerStyle} {...containerProps}>
       <TouchableOpacity
-        style={_style}
+        style={[_style, {}]}
         onPress={__onPress}
         onLayout={__onLayout}
         {...props}
